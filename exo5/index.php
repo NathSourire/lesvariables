@@ -22,7 +22,7 @@ $value = (int) null;
 Donner une valeur à cette variable et l'afficher.</p>
         </div>
     </header>
-    <main class="container- fluid" >
+    <main class="container-fluid" >
         <div class="row results" >
         <div class=" col-12 ">
             <?php

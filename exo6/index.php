@@ -23,13 +23,13 @@ $name = 'Nath';
 
         </div>
     </header>
-    <main class="container- fluid">
+    <main class="container-fluid">
         <div class="row results">
             <div class=" col-12 ">
                 <p><?php echo 'Bonjour '.$name.', comment vas tu ?';?></p>
-                <p>Bonjour <?php $name; ?> Comment vas tu ?</p>
-                <p><?php 'Bonjour '.$name.' Comment vas tu ?'; ?></p>
-                <p><?php "Bonjour $name Comment vas tu ?"; ?></p>
+                <p>Bonjour <?= $name; ?> Comment vas tu ?</p>
+                <p><?= 'Bonjour '.$name.' Comment vas tu ?'; ?></p>
+                <p><?= "Bonjour $name Comment vas tu ?"; ?></p>
             </div>
         </div>
     </main>
