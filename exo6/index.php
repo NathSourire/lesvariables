@@ -24,8 +24,8 @@ $name = 'Nath';
         </div>
     </header>
     <main class="container-fluid">
-        <div class="row results">
-            <div class=" col-12 ">
+        <div class="row">
+            <div class="results">
                 <p><?php echo 'Bonjour '.$name.', comment vas tu ?';?></p>
                 <p>Bonjour <?= $name; ?> Comment vas tu ?</p>
                 <p><?= 'Bonjour '.$name.' Comment vas tu ?'; ?></p>

@@ -9,9 +9,9 @@ header p{
     text-align: center;
     font-size: 20px;  
 }
-main .results{
+.results{
     height: auto;
-    width: 150vh;
+    width: 50%;
     border: 2px solid black ;
     text-align: center;
     font-size: 20px;

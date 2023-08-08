@@ -9,10 +9,9 @@ header p{
     text-align: center;
     font-size: 20px;  
 }
-main .results{
-
-    height: 10vh;
-    width: 150vh;
+.results{
+    height: auto;
+    width: auto;
     border: 2px solid black ;
     text-align: center;
     font-size: 20px;

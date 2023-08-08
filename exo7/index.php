@@ -27,11 +27,13 @@ $age = '47';
         </div>
     </header>
     <main class="container- fluid">
-        <div class="row results">
-            <div class=" col-12 ">
+        <div class="row">
+            <div class="">
+                <p class="results">
                 <?php
                 echo 'Bonjour ' .$lastname. ' '  .$firstname.  ', tu as ' .$age. ' ans.';
                 ?>
+                </p>
             </div>
         </div>
     </main>
