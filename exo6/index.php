@@ -23,14 +23,12 @@ $name = 'Nath';
 
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="">
         <div class="row">
-            <div class="results">
-                <p><?php echo 'Bonjour '.$name.', comment vas tu ?';?></p>
-                <p>Bonjour <?= $name; ?> Comment vas tu ?</p>
-                <p><?= 'Bonjour '.$name.' Comment vas tu ?'; ?></p>
-                <p><?= "Bonjour $name Comment vas tu ?"; ?></p>
-            </div>
+                <p class="results"><?php echo 'Bonjour '.$name.', comment vas tu ?';?><br>
+                Bonjour <?= $name; ?> Comment vas tu ? <br>
+                <?= 'Bonjour '.$name.' Comment vas tu ?'; ?> <br>
+                <?= "Bonjour $name Comment vas tu ?"; ?></p>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

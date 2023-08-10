@@ -23,19 +23,18 @@ $km = '1';
             <p>Changer sa valeur par 125. Afficher son contenu.</p>
         </div>
     </header>
-    <main class="container- fluid">
-        <div class="row results">
-            <div class=" col-12 ">
+    <main class="">
+        </div class="row">
                 <!-- <?php
                 // $kms = array('1', '3', '150');
                 // foreach ($kms as $key => $km) {
                 //     echo $km . ' kms' . '<br />';
                 // }
                 ?> -->
-            <p><?php echo "$km km"; ?></p>
-            <p><?php $km = 3;echo "$km km"; ?></p>
-            <p><?php $km = 150;echo "$km km"; ?></p>
-            </div>
+            <p class="results">
+                <?php echo "$km km"; ?><br>
+                <?php $km = 3;echo "$km km"; ?><br>
+                <?php $km = 150;echo "$km km"; ?></p>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

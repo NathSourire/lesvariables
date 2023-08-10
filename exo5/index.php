@@ -18,19 +18,19 @@ $value = (int) null;
         <div class="row">
             <img class="imgLogo col-3" src="./public/assets/img/PHP-logo.png" alt="Logo PHP">
             <h1 class="col-7">Exercice 5</h1>
-            <p>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur.  
-Donner une valeur à cette variable et l'afficher.</p>
+            <p>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur.
+                Donner une valeur à cette variable et l'afficher.</p>
         </div>
     </header>
-    <main class="container-fluid" >
-        <div class="row results" >
-        <div class=" col-12 ">
-            <?php
-            echo "Mon age est $value ans <br>";
-            $value = '47';
-            echo "Mon age est $value ans";
-            ?>
-    </div>
+    <main class="">
+        <div class="row">
+            <p class="results">
+                <?php
+                echo "Mon age est $value ans <br>";
+                $value = '47';
+                echo "Mon age est $value ans";
+                ?>
+            </p>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

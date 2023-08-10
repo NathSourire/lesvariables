@@ -27,13 +27,13 @@ $valuedef = 'true';
                 Les afficher.</p>
         </div>
     </header>
-    <main class="container- fluid">
-        <div class="row results">
-            <div class=" col-12 ">
-                <?php
-                echo "Mon nom est $firstname, j'ai $age, je vaux $price et tout est $valuedef";
-                ?>
-            </div>
+    <main class="">
+        <div class="row">
+            <p class="results">
+            <?php
+            echo "Mon nom est $firstname, j'ai $age, je vaux $price et tout est $valuedef";
+            ?>
+            </p>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

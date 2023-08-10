@@ -23,7 +23,7 @@ $age = '47';
             <p>Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix.  Attention age est de type entier.  Afficher leur contenu.</p>
         </div>
     </header>
-    <main class="container- fluid" >
+    <main class="" >
         <div class="row results" >
         <div class=" col-4 ">
             <?php

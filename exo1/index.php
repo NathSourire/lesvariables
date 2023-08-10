@@ -22,15 +22,15 @@ $name = 'Nathalie';
             <p>Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="">
         <div class="row">
-            <div class="results position-absolute top-50 start-50 translate-middle ">
+            <div class="results ">
                 <p>
                     <?php
                     echo "$name";
-                    ?>
+                    ?><br>
+                    <?=$name?>
                 </p>
-                <p><?=$name?></p>
             </div>
         </div>
     </main>

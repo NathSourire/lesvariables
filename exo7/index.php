@@ -26,15 +26,13 @@ $age = '47';
                 Afficher : Bonjour + lastname + firstname + , tu as + age + ans. </p>
         </div>
     </header>
-    <main class="container- fluid">
+    <main class="">
         <div class="row">
-            <div class="">
                 <p class="results">
                 <?php
                 echo 'Bonjour ' .$lastname. ' '  .$firstname.  ', tu as ' .$age. ' ans.';
                 ?>
                 </p>
-            </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
